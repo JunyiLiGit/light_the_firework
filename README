@@ -1,0 +1,37 @@
+Name: Junyi Li
+Clemson Email Address: junyil@g.clemson.edu
+
+Project no: #5
+Project due date: Noon on Wednesday, April 23 rd
+
+Project description: 
+
+In this game, the player is fire, the fire emerges from the volcano. When you press Enter, the game begins. 
+
+Goal: Let the fire gain more than 20 points and ignite the firework.
+
+Rules: The fire can move left, right, up, down and shoot in the same direction as its movement. 
+The fire can burn leaves, shoot big rocks and big raindrops to increase its points. When the big rocks and the big rainDrops are shot by the fair they will scale their size to half and never hurt the fire. 
+The points will decrease if the fire collides with the big rock and the raindrop bullets. When the fire meets with the mountain, the fire has to catch the umbrella to go over it. After the fire crosses the mountain the umbrella and the fire will separate. Also the fire should avoid falling in the pond, or it will die instantly. If the fire earns more than 20 points, it has enough energy to ignite the firework, and it will win! If the fire has negative points the fire will die... You can press R to restart the game.
+ 
+The Specs that I implemented are:
+
+1. AI- The leaves are smart sprites, they will avoid the fire based on distance.
+2. Player can restart game by pressing r
+3. Player can win or lose...
+
+Extras: 
+
+1. A better controlled physically based player which is influenced by gravity. 
+2. Using rotozoom to shrink the rocks and rain bullets when the fire shoots the rocks and the big rain.  
+
+
+I drew the umbrella by myself. I got the big mountain and the fire from a friend and the others came from the clipart on Google image and I modified them in Gimp.
+
+ 
+
+
+
+
+
+

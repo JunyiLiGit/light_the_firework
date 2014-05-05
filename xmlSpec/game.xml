@@ -1,0 +1,276 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>light the firework</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>400</frameMax>
+<username>Junyil</username>
+
+
+<view>
+  <Width>854</Width>
+  <Height>480</Height>
+</view>
+
+<world>
+  <Width>1800</Width>
+  <Height>500</Height>
+</world>
+
+<safeDistance>80</safeDistance>
+
+<sky>
+<File>images/sky.png</File>
+<Factor>3</Factor>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>1200</Width>
+  <Height>568</Height>
+  <Transparency>true</Transparency>
+</sky>
+
+
+
+<mountains>
+<File>images/mountains.png</File>
+  <Factor>2</Factor>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>2000</Width>
+  <Height>500</Height>
+  <Transparency>true</Transparency>
+</mountains>
+
+
+
+
+<font name="font">
+  <File>font/ResamitzBold_0047.otf</File>
+  <Size>14</Size>
+  <Red>0</Red>
+  <Green>0</Green>
+  <Blue>0</Blue>
+  <Unused>0</Unused>
+  <bold>1</bold>
+</font>
+<deadfont name="font">
+  <File>font/dyslexic-bold.otf</File>
+  <Size>54</Size>
+  <Red>255</Red>
+  <Green>255</Green>
+  <Blue>1</Blue>
+  <Unused>0</Unused>
+  <bold>1</bold>
+</deadfont>
+
+<fire>
+  <File>images/fire.png</File> 
+  <Depth>1</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Loc X="20" Y="300"/> 
+  <Frames>4</Frames> 
+  <FrameInterval>100</FrameInterval>
+  <Chunks>25</Chunks>
+  <Width>80</Width>
+  <Height>80</Height>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Count>1</Count>
+  <Strategy>pix</Strategy>
+  <Transparency>true</Transparency>
+  
+  <Bullet>firebullet</Bullet>
+  
+</fire>
+
+
+ <firebullet>
+	<File>images/firebullet.png</File>
+	<Strategy>pix</Strategy>
+	<distance>250</distance>
+	 <Depth>4</Depth>
+	<Width>30</Width>
+    <Height>31</Height>
+     <Loc X="100" Y="50"/> 
+	<Interval>200</Interval>
+	<SpeedX>0</SpeedX>
+    <SpeedY>600</SpeedY>
+    <Transparency>true</Transparency>
+	
+ </firebullet>
+
+
+
+<mountain>
+  <File>images/mountain.png</File>
+  <Depth>8</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>300</Width>
+  <Height>255</Height>
+  <Loc X="780" Y="250"/>
+  <SpeedX>0</SpeedX> 
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+</mountain>
+
+
+<volcano>
+  <File>images/volcano.png</File>
+  <Depth>7</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>300</Width>
+  <Height>213</Height>
+  <Loc X="-50" Y="280"/>
+  <SpeedX>0</SpeedX> 
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+</volcano>
+
+<pond>
+  <File>images/pond.png</File>
+  <Depth>6</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>200</Width>
+  <Height>47</Height>
+  <Loc X="1200" Y="420"/>
+  <SpeedX>0</SpeedX> 
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+</pond>
+
+<rocks>
+  <File>images/rocks.png</File>
+  <Depth>5</Depth>
+  <Loc leftX="770" Y="400"/>
+  <Loc rightX="1200" Y="300"/>
+
+  <Frames>4</Frames>
+  <FrameInterval>100</FrameInterval>
+  <Chunks>25</Chunks>
+
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>100</Width>
+  <Height>100</Height>
+  <leftSpeedX>-50</leftSpeedX>
+  <rightSpeedX>50</rightSpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <Count>2</Count>
+</rocks>
+
+<rain>
+  <File>images/rain.png</File> 
+  <Depth>4</Depth>
+  <Frames>4</Frames>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>50</Width>
+  <Height>80</Height>
+  <Loc X="100" Y="50"/> 
+  <Frames>4</Frames> 
+  <FrameInterval>100</FrameInterval>
+  <Chunks>25</Chunks>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Count>15</Count>
+  <Strategy>pix</Strategy>
+  <Transparency>true</Transparency>
+  
+  <Bullet>raindrop</Bullet>
+</rain>
+
+
+ <raindrop>
+	<File>images/raindrop.png</File>
+	<Strategy>pix</Strategy>
+	<distance>100</distance>
+	 <Depth>4</Depth>
+	<Width>10</Width>
+    <Height>14</Height>
+     <Loc X="100" Y="50"/> 
+	<Interval>200</Interval>
+	<SpeedX>0</SpeedX>
+    <SpeedY>200</SpeedY>
+    <Transparency>true</Transparency>
+	
+ </raindrop>
+
+
+
+ <leaf>
+  <File>images/leaf.png</File>
+  <Depth>3</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>80</Width>
+  <Height>80</Height>
+  <Loc X="320" Y="240"/>
+  <SpeedX>200</SpeedX>
+  <SpeedY>200</SpeedY>
+  <Transparency>true</Transparency>
+  <chunk>
+    <size>30</size>
+    <distance>250</distance>
+    <Depth>3</Depth>
+  </chunk>
+  <Count>15</Count>
+</leaf>
+
+
+<umbrella>
+  <File>images/umbrella.png</File>
+  <Depth>1</Depth>
+  <Loc X="770" Y="100"/>
+
+  <Frames>4</Frames>
+  <FrameInterval>100</FrameInterval>
+  <Chunks>25</Chunks>
+
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>150</Width>
+  <Height>150</Height>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <Count>2</Count>
+</umbrella>
+
+
+<fireworks>
+  <File>images/fireworks.png</File>
+  <Depth>1</Depth>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>300</Width>
+  <Height>304</Height>
+  <Loc X="1630" Y="30"/>
+  <SpeedX>0</SpeedX> 
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <chunk>
+    <size>30</size>
+    <distance>200</distance>
+    <Depth>1</Depth>
+  </chunk>
+</fireworks>
+
+
+
+
+
+
+
+
+
+</GameData>
